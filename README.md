@@ -1,8 +1,6 @@
-# Kramdown::Amp
+# Kramdown Converter for Amp
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kramdown/amp`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -19,6 +17,14 @@ And then execute:
 Or install it yourself as:
 
     $ gem install kramdown-amp
+
+## How it works
+
+kramdown-amp works by monkey-patching `Kramdown::Converter::Html`.
+
+## Supported amp tag
+
+- img -> amp-img
 
 ## Usage
 

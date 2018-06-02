@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["toshimaru"]
   spec.email         = ["me@toshimaru.net"]
 
-  spec.summary       = %q{kramdown for AMP}
-  spec.description   = %q{kramdown for AMP}
+  spec.summary       = %q{Kramdown AMP Converter}
+  spec.description   = %q{Kramdown AMP Converter}
   spec.homepage      = "https://github.com/toshimaru/kramdown-amp"
   spec.license       = "MIT"
 
