@@ -2,7 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kramdown/amp`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-## Installation
+## Installation for Jekyll
 
 Add this line to your application's Gemfile:
 
@@ -10,13 +10,13 @@ Add this line to your application's Gemfile:
 gem 'kramdown-amp'
 ```
 
-And then execute:
+Then, add it to plugins list in `_config.yml`.
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install kramdown-amp
+```yml
+plugins:
+  - ...
+  - kramdown-amp
+```
 
 ## How it works
 
