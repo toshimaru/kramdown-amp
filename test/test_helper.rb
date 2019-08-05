@@ -1,4 +1,4 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require "kramdown/amp"
+require "kramdown-amp"
 
 require "minitest/autorun"
