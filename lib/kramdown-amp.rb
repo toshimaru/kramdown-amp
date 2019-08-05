@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'fastimage'
 require 'kramdown/converter/html'
 require 'kramdown/converter/amp'
