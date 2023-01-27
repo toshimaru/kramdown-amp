@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-lib = File.expand_path("../lib", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "kramdown/amp/version"
+require_relative 'lib/kramdown/amp/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "kramdown-amp"
@@ -22,12 +20,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = '>= 2.4'
+  spec.required_ruby_version = '>= 2.7'
 
-  spec.add_dependency "kramdown"
-  spec.add_dependency "fastimage"
-
-  spec.add_development_dependency "bundler", ">= 2.0"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "minitest"
+  spec.add_dependency 'fastimage'
+  spec.add_dependency 'kramdown'
 end
