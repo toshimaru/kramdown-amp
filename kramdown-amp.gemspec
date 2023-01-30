@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["me@toshimaru.net"]
 
   spec.summary       = %q{Kramdown AMP Converter}
-  spec.description   = %q{Kramdown AMP Converter}
+  spec.description   = %q{Kramdown AMP Converter: kramdown-amp is kramdown converter for AMP. It works as a Jekyll-plugin.}
   spec.homepage      = "https://github.com/toshimaru/kramdown-amp"
   spec.license       = "MIT"
 

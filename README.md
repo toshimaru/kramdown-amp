@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/toshimaru/kramdown-amp.svg?branch=master)](https://travis-ci.com/toshimaru/kramdown-amp)
 
-# kramdown-amp(Kramdown Converter for AMP)
+# kramdown-amp
 
 kramdown-amp is [kramdown](https://kramdown.gettalong.org) converter for [AMP](https://amp.dev/). It works as a [Jekyll](https://jekyllrb.com)-plugin.
 
