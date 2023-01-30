@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/toshimaru/kramdown-amp.svg?branch=master)](https://travis-ci.com/toshimaru/kramdown-amp)
+[![CI](https://github.com/toshimaru/kramdown-amp/actions/workflows/ci.yml/badge.svg)](https://github.com/toshimaru/kramdown-amp/actions/workflows/ci.yml)
 
 # kramdown-amp
 
@@ -8,7 +8,7 @@ kramdown-amp is [kramdown](https://kramdown.gettalong.org) converter for [AMP](h
 
 Add this line to your application's Gemfile:
 
-```ruby
+```rb
 gem 'kramdown-amp'
 ```
 
