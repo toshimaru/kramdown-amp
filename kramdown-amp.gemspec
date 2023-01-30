@@ -9,9 +9,10 @@ Gem::Specification.new do |spec|
   spec.email         = ["me@toshimaru.net"]
 
   spec.summary       = %q{Kramdown AMP Converter}
-  spec.description   = %q{Kramdown AMP Converter}
+  spec.description   = %q{Kramdown AMP Converter: kramdown-amp is kramdown converter for AMP. It works as a Jekyll-plugin.}
   spec.homepage      = "https://github.com/toshimaru/kramdown-amp"
   spec.license       = "MIT"
+  spec.required_ruby_version = '>= 2.7.0'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
@@ -20,7 +21,9 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = '>= 2.7'
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = "https://github.com/toshimaru/kramdown-amp/releases"
 
   spec.add_dependency 'fastimage'
   spec.add_dependency 'kramdown'
