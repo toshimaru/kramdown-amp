@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/kramdown-amp.svg)](https://badge.fury.io/rb/kramdown-amp)
 [![CI](https://github.com/toshimaru/kramdown-amp/actions/workflows/ci.yml/badge.svg)](https://github.com/toshimaru/kramdown-amp/actions/workflows/ci.yml)
 
 # kramdown-amp
